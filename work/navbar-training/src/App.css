@@ -1,0 +1,18 @@
+.hamburger::after,
+.hamburger::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 2px;
+  margin: auto;
+  background: #000000;
+  transition: all 0.5s;
+}
+
+.hamburger::after {
+  top: -1px;
+}
+.hamburger::before {
+  top: 1px;
+}
